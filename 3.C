@@ -1,28 +1,27 @@
 /*For Any Doubts contact Mr.Balu Email:balu.bhig@gmail.com */
 #include<stdio.h>
 int main(){
-/*For Any Doubts contact Mr.Balu Email:balu.bhig@gmail.com */
-  int s,i,j,temp,a[20];
-  printf("\nEnter size of the array :");
-  scanf("%d",&s);
-  printf("\nEnter %d elements in to the array:");
-  for(i=0;i<s;i++)
-      scanf("%d",&a[i]);
-  for(i=0;i<s;i++){
-      for(j=i+1;j<s;j++){
-           if(a[i]>a[j]){
-               temp=a[i];
-/*For Any Doubts contact Mr.Balu Email:balu.bhig@gmail.com */
-              a[i]=a[j];
-              a[j]=temp;
-           }
-      }
-  }
-  printf("\nThe array after sorting is: ");
-  for(i=0;i<s;i++)
-      printf(" %d",a[i]);
+  int num,x;
+  clrscr();
+  printf("\nEnter a number: ");
+  scanf("%d",&num);
+  x=findsum(num);
+  printf("Sum of the digits of %d is: %d",num,x);
   return 0;
-}
 /*For Any Doubts contact Mr.Balu Email:balu.bhig@gmail.com */
+}
+
+
+int r,s;
+int findsum(int n){
+if(n){
+         r=n%10;
+         s=s+r;
+         findsum(n/10);
+     }
+/*For Any Doubts contact Mr.Balu Email:balu.bhig@gmail.com */
+     else
+       return s;
+}
 
 /*For Any Doubts contact Mr.Balu Email:balu.bhig@gmail.com */

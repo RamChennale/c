@@ -1,27 +1,28 @@
 /*For Any Doubts contact Mr.Balu Email:balu.bhig@gmail.com */
 #include<stdio.h>
+/*For Any Doubts contact Mr.Balu Email:balu.bhig@gmail.com */
 int main(){
-  int i,j,s,temp,a[20];
-  printf("\nEnter size of the array: ");
-/*For Any Doubts contact Mr.Balu Email:balu.bhig@gmail.com */
-  scanf("%d",&s);
-  printf("\nEnter %d elements in to the array:",s);
-  for(i=0;i<s;i++)
-      scanf("%d",&a[i]);
-  for(i=1;i<s;i++){
-      temp=a[i];
-      j=i-1;
-      while((temp<a[j])&&(j>=0)){
-      a[j+1]=a[j];
-          j=j-1;
-/*For Any Doubts contact Mr.Balu Email:balu.bhig@gmail.com */
-      }
-      a[j+1]=temp;
-  }
-  printf("\nAfter sorting the elements are: ");
-  for(i=0;i<s;i++)
-      printf(" %d",a[i]);
+  int n1,n2,gcd;
+  printf("\nEnter two numbers: ");
+  scanf("%d %d",&n1,&n2);
+  gcd=findgcd(n1,n2);
+  printf("\nGCD of %d and %d is: %d",n1,n2,gcd);
   return 0;
 }
+
+
+/*For Any Doubts contact Mr.Balu Email:balu.bhig@gmail.com */
+int findgcd(int x,int y){
+     while(x!=y){
+          if(x>y)
+              return findgcd(x-y,y);
+          else
+             return findgcd(x,y-x);
+     }
+     return x;
+}
+
+/*For Any Doubts contact Mr.Balu Email:balu.bhig@gmail.com */
+
 
 /*For Any Doubts contact Mr.Balu Email:balu.bhig@gmail.com */

@@ -1,0 +1,6 @@
+1. Write a c program to find factorial of a number using recursion. 
+2. Write a c program to find GCD of a two numbers using recursion. 
+3. Write a c program to find out sum digits of a number using recursion. 
+4. Write a c program to find power of a number using function recursion.
+5. Write a c program to reverse any number using recursion.
+Size of data type
