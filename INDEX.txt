@@ -1,0 +1,129 @@
+1.	A Fibonacci sequence is defined as follows: the first and second terms in the sequence are 0 and 1. Subsequent terms are found by adding the preceding two terms in the sequence. Write a C program to generate the first n terms of the sequence.
+
+2.	Write a C program to generate all the prime numbers between 1 and n, where n is a value supplied by the user.
+
+3.	Write a C program to find the sum of individual digits of a positive integer.
+
+4.	Write a C program to calculate the following Sum: Sum=1-x2/2! +x4/4!-x6/6!+x8/8!-x10/10!.
+
+5.	Write a C program toe find the roots of a quadratic equation.
+
+6.	Write C programs that use both recursive and non-recursive functions To find the factorial of a given integer.
+
+7.	Write C programs that use both recursive and non-recursive functions To find the GCD (greatest common divisor) of two given integers.
+
+8.	Write C programs that use both recursive and non-recursive functions To solve Towers of Hanoi problem.
+
+9.	Write a C program, which takes two integer operands and one operator form the user, performs the operation and then prints the result.
+ (Consider the operators +,-,*, /, % and use Switch Statement)
+
+10.	The total distance travelled by vehicle in 't' seconds is given by distance = ut+1/2at2 where 'u' and 'a' are the initial velocity (m/sec.) and acceleration (m/sec2). Write C program to find the distance travelled at regular intervals of time given the values of 'u' and 'a'. The program should provide the flexibility to the user to select his own time intervals and repeat the calculations for different values of 'u' and 'a'.
+
+11.	Write a C program that uses functions to perform the following:
+i) Addition of Two Matrices
+ii) Multiplication of Two Matrices
+
+12.	Write a C program to find both the largest  and smallest number in a list of integers.
+
+13.	Write a C program that uses functions to perform the following operations: To insert a sub-string in to given main string from a given position.
+
+14.	Write a C program to determine if the given string is a palindrome or not
+
+15.	Write a C program that uses functions to perform the following operations: To delete n Characters from a given position in a given string.
+
+16.	Write a C program to count the lines, words and characters in a given text
+
+17.	Write a C program that displays the position or index in the string S where the string T begins, or - 1 if S doesn't contain T.
+
+18.	Write a C program to generate Pascal's triangle.
+
+19.	Write a C program to construct a pyramid of numbers.
+
+20.	Write a C program to read in two numbers, x and n, and then compute the sum of this geometric progression:1+x+x2+x3+………….+xn For example: if n is 3 and x is 5, then the program computes 1+5+25+125.Print x, n, the sum Perform error checking. For example, the formula does not make sense for negative exponents - if n is less than 0. Have your program print an error message if n<0, then go back and read in the next pair of numbers of without computing the sum. Are any values of x also illegal ? If so, test for them too.
+
+21.	2’s complement of a number is obtained by scanning it from right to left and complementing all the bits after the first appearance of a 1. Thus 2’s complement of 11100 is 00100. Write a C program to find the 2’s complement of a binary number.
+
+22.	Write a C program to convert a Roman numeral to its decimal equivalent.
+
+23.	Write a C program that uses functions to perform the following operations:	i) Reading a complex number
+		ii) Writing a complex number
+		iii) Addition of two complex numbers
+		iv) Multiplication of two complex numbers
+(Note: represent complex number using a structure.)
+
+24.	Write a C program which copies one file to another.
+
+25.	Write a C program to reverse the first n characters in a file. (Note: The file name and n are specified on the command line.)
+
+26.	Write a program to create a linear linked list interactively and print out the list and the total number of items in the list.
+
+27.	Write a  function for deleting an item from linked list
+
+28.	Write a function for inserting an item into a linked list
+
+29.	Write a program for creation of sorted list from a given list of numbers
+
+30.	Write a C program that uses functions to perform the following operations on doubly linked list.: 
+i)	Creation
+ii)	Insertion   
+iii)	Deletion   
+iv)	Traversal in both ways
+
+31.	Write C programs that implement stack (its operations) using Arrays
+
+32.	Write C programs that implement stack (its operations) using Pointers.
+
+33.	Write C programs that implement Queue (its operations) using	i) Arrays
+
+34.	Write C programs that implement Queue (its operations) using	ii) Pointers
+
+35.	Write a C program that uses Stack operations to perform the following:
+i) Converting infix expression into postfix expression
+	ii) Evaluating the postfix expression
+
+36.	Write a C program that uses functions to perform the following:
+  		 i) Creating a Binary Tree of integers
+  		 ii) Traversing the above binary tree in preorder, inorder and postorder.
+
+37.	Write C programs  that use both recursive and non recursive functions to perform the following searching operations for a Key value in a given list of integers :
+  ii) Binary search
+
+38.	Write C programs  that use both recursive and non recursive functions to perform the following searching operation for a Key value in a given list of integers :
+i)	Linear search
+
+39.	Write C programs that implement the following sorting methods to sort
+i)	   a given list of integers in ascending order: i) Bubble sort
+
+40.	Write C program that implement the following sorting methods to sort a given list of integers in ascending order: ii) Quick sort
+
+41.	Write C program that implement the following sorting methods to sort a given list of integers in ascending order: i) Insertion sort
+
+42.	Write C program that implement the following sorting methods to sort a given list of integers in ascending order: ii) Merge sort
+
+43.	Write C program to implement the Lagrange interpolation.
+
+44.	Write C program to implement the Newton- Gregory forward interpolation.
+
+45.	Write C program to implement the linear regression algorithm.
+
+46.	Write C program to implement  Simpson method.
+
+47.	Write C program to implement  Trapezoidal method.
+
+48.	Write a ’C’ program to find the squares of N numbers using do - while.
+
+49.	Write a ’C’ program to convert Decimal Number to Octal Number
+
+50.	Write a program to evaluate the equation s = sqr(m() + n() ) using function.
+
+51.	Write a program to store and print name, address ,rollno using structures.
+
+52.	Write a program to read series of digits and store them into a file, then read the numbers from the file and write all odd & even numbers into different files.
+Write a program to find sum of given series by using function with argument and
+
+53.	return value e = 2 + 3/1! - 6/2! + 9/3! - 12/4! .....!
+Write a program to swap nodes in a binary tree.
+
+54.	(b) Write a program to find min and max nodes in a binary tree.
+
+55.	Write a program to delete a node in singly and doubly linked list
